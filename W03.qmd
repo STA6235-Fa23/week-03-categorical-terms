@@ -1,0 +1,115 @@
+---
+title: "STA6235 Week 3"
+author: "Your Name Here"
+format: 
+  html:
+    self-contained: true
+execute:
+  echo: true
+  warning: false
+  message: false
+  error: true
+editor: source
+---
+
+## Tuesday, September 5
+
+1. From last week: pull in the [Palmer penguins dataset](https://allisonhorst.github.io/palmerpenguins/).
+
+```{r}
+
+```
+
+2. From last week: model penguin body mass (*body_mass_g*) as a function of flipper length (*flipper_length_mm*) and bill length (*bill_length_mm*). Remember to state the resulting regression model.
+
+```{r}
+
+```
+
+3. Find the $R^2$ and $R^2_{\text{adj}}$ for the model.
+
+```{r}
+
+```
+
+4. Provide a brief interpretation of the $R^2_{\text{adj}}$ value.
+
+5. Explain the model assumptions in your own words.
+
+6. Assess the model assumptions using the graphical method shown in class. Does our model meet the assumptions necessary for statistical inference?
+
+```{r}
+
+```
+
+7. Check for outliers. How many exist? 
+
+```{r}
+
+```
+
+8. Check influence and leverage - are there any points we need to check? Which ones?
+
+```{r}
+
+```
+
+9. Check multicollinearity - are there any issues with our model?
+
+```{r}
+
+```
+
+## Thursday, September 7
+
+10. Create indicator variables for the species of penguin (*species*).
+
+```{r}
+
+```
+
+11. Model penguin body mass (*body_mass_g*) as a function of flipper length (*flipper_length_mm*), bill length (*bill_length_mm*), and the species (*species*). Remember to state the resulting regression model. 
+
+```{r}
+
+```
+
+12. Use the appropriate hypothesis test to determine if this is a significant regression line. Test at the $\alpha=0.05$ level. Remember to typeset your results.
+
+```{r}
+
+```
+
+13. Use the appropriate hypothesis test(s) to determine which, if any, are significant predictors of penguin body mass. Test at the $\alpha=0.05$ level. Remember to typeset your results.
+
+```{r}
+
+```
+
+14. Create a data visualization for your regression model. Create the regression line for each species.
+
+```{r}
+
+```
+
+15. Now that we've introduced species to the model, do we still meet the model assumptions?
+
+```{r}
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
